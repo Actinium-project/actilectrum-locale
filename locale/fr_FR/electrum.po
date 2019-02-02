@@ -349,7 +349,7 @@ msgstr ""
 
 #: electrum/gui/qt/main_window.py:1236
 msgid "Also, dust is not kept as change, but added to the fee."
-msgstr "De plus, les très petites pièces de Bitcoin ne sont conservés comme monnaie, mais ajoutée aux frais."
+msgstr "De plus, les très petites pièces de Actinium ne sont conservés comme monnaie, mais ajoutée aux frais."
 
 #: electrum/gui/qt/main_window.py:1237
 msgid "Also, when batching RBF transactions, BIP 125 imposes a lower bound on the fee."
@@ -424,9 +424,9 @@ msgstr "Arabe"
 #: electrum/plugins/trezor/qt.py:401 electrum/plugins/keepkey/qt.py:426
 #: electrum/plugins/safe_t/qt.py:311
 msgid "Are you SURE you want to wipe the device?\n"
-"Your wallet still has bitcoins in it!"
+"Your wallet still has actiniums in it!"
 msgstr "Êtes-vous SÛR de vouloir effacer l'appareil?\n"
-"Votre portefeuille contient encore des bitcoins!"
+"Votre portefeuille contient encore des actiniums!"
 
 #: electrum/plugins/digitalbitbox/digitalbitbox.py:319
 msgid "Are you sure you want to erase the Digital Bitbox?"
@@ -527,20 +527,20 @@ msgid "Bit rate [kbps]: "
 msgstr "Bitrate [kbit/s]: "
 
 #: electrum/gui/kivy/uix/ui_screens/receive.kv:71
-msgid "Bitcoin Address"
-msgstr "Adresse Bitcoin"
+msgid "Actinium Address"
+msgstr "Adresse Actinium"
 
 #: electrum/gui/qt/main_window.py:1562
-msgid "Bitcoin Address is None"
-msgstr "Aucune adresse Bitcoin"
+msgid "Actinium Address is None"
+msgstr "Aucune adresse Actinium"
 
 #: electrum/gui/qt/main_window.py:865
-msgid "Bitcoin address where the payment should be received. Note that each payment request uses a different Bitcoin address."
-msgstr "Adresses Bitcoin où vous devrez faire vos paiements. Notez que vous devriez utiliser une nouvelle adresse pour chaque transaction."
+msgid "Actinium address where the payment should be received. Note that each payment request uses a different Actinium address."
+msgstr "Adresses Actinium où vous devrez faire vos paiements. Notez que vous devriez utiliser une nouvelle adresse pour chaque transaction."
 
 #: electrum/gui/qt/main_window.py:1171
-msgid "Bitcoin transactions are in general not free. A transaction fee is paid by the sender of the funds."
-msgstr "Les transactions Bitcoin ne sont généralement pas gratuites. L'expéditeur paye des frais de transaction aux mineurs."
+msgid "Actinium transactions are in general not free. A transaction fee is paid by the sender of the funds."
+msgstr "Les transactions Actinium ne sont généralement pas gratuites. L'expéditeur paye des frais de transaction aux mineurs."
 
 #: electrum/gui/qt/network_dialog.py:306
 #: electrum/gui/kivy/uix/ui_screens/network.kv:47
@@ -1215,8 +1215,8 @@ msgid "Device communication error. Please unplug and replug your Digital Bitbox.
 msgstr "Erreur de communication avec l'appareil. Veuillez rebrancher votre Digital Bitbox."
 
 #: electrum/plugins/ledger/ledger.py:195
-msgid "Device not in Bitcoin mode"
-msgstr "L'appareil n'est pas en mode Bitcoin"
+msgid "Device not in Actinium mode"
+msgstr "L'appareil n'est pas en mode Actinium"
 
 #: electrum/plugins/digitalbitbox/__init__.py:5
 msgid "Digital Bitbox wallet"
@@ -1340,9 +1340,9 @@ msgstr "Modules d'Electrum"
 
 #: electrum/plugin.py:498
 msgid "Electrum cannot pair with your {}.\n\n"
-"Before you request bitcoins to be sent to addresses in this wallet, ensure you can pair with your device, or that you have its seed (and passphrase, if any).  Otherwise all bitcoins you receive will be unspendable."
+"Before you request actiniums to be sent to addresses in this wallet, ensure you can pair with your device, or that you have its seed (and passphrase, if any).  Otherwise all actiniums you receive will be unspendable."
 msgstr "Electrum ne peut pas s'apparier avec votre {}.\n\n"
-"Avant que vous ne demandiez l'envoi de bitcoins à des adresses dans ce portefeuille, assurez-vous que vous pouvez vous apparier avec votre appareil, ou que vous avez sa graine (et sa phrase secrète, le cas échéant). Sinon, tous les bitcoins que vous recevrez ne seront pas dépensés."
+"Avant que vous ne demandiez l'envoi de actiniums à des adresses dans ce portefeuille, assurez-vous que vous pouvez vous apparier avec votre appareil, ou que vous avez sa graine (et sa phrase secrète, le cas échéant). Sinon, tous les actiniums que vous recevrez ne seront pas dépensés."
 
 #: electrum/gui/qt/installwizard.py:585
 msgid "Electrum communicates with remote servers to get information about your transactions and addresses. The servers all fulfill the same purpose only differing in hardware. In most cases you simply want to let Electrum pick one at random.  However if you prefer feel free to select a server manually."
@@ -1397,8 +1397,8 @@ msgid "Electrum was unable to produce a transaction export."
 msgstr "Electrum n'a pas pu générer une exportation de la transaction."
 
 #: electrum/gui/qt/main_window.py:623
-msgid "Electrum's focus is speed, with low resource usage and simplifying Bitcoin."
-msgstr "Electrum se veut être rapide, en utilisant peu de ressources, et en simplifiant le système Bitcoin."
+msgid "Electrum's focus is speed, with low resource usage and simplifying Actinium."
+msgstr "Electrum se veut être rapide, en utilisant peu de ressources, et en simplifiant le système Actinium."
 
 #: electrum/plugins/email_requests/__init__.py:3
 msgid "Email"
@@ -1525,7 +1525,7 @@ msgid "Enter a label to name your device:"
 msgstr ""
 
 #: electrum/base_wizard.py:187
-msgid "Enter a list of Bitcoin addresses (this will create a watching-only wallet), or a list of private keys."
+msgid "Enter a list of Actinium addresses (this will create a watching-only wallet), or a list of private keys."
 msgstr ""
 
 #: electrum/gui/qt/main_window.py:1896
@@ -1545,8 +1545,8 @@ msgstr "Saisir un nouveau mot de passe ci-dessous."
 #: electrum/plugins/trezor/clientbase.py:247
 #: electrum/plugins/keepkey/clientbase.py:62
 #: electrum/plugins/safe_t/clientbase.py:67
-msgid "Enter a passphrase to generate this wallet.  Each time you use this wallet your {} will prompt you for the passphrase.  If you forget the passphrase you cannot access the bitcoins in the wallet."
-msgstr "Entrez une phrase secrète pour générer ce portefeuille. À chaque fois que vous utiliserez ce portefeuille, votre {} vous demandera d'entrer la phrase secrète. Si vous oubliez la phrase secrète, vous ne pourrez pas accéder aux bitcoins contenus dans le portefeuille."
+msgid "Enter a passphrase to generate this wallet.  Each time you use this wallet your {} will prompt you for the passphrase.  If you forget the passphrase you cannot access the actiniums in the wallet."
+msgstr "Entrez une phrase secrète pour générer ce portefeuille. À chaque fois que vous utiliserez ce portefeuille, votre {} vous demandera d'entrer la phrase secrète. Si vous oubliez la phrase secrète, vous ne pourrez pas accéder aux actiniums contenus dans le portefeuille."
 
 #: electrum/gui/qt/main_window.py:2702
 msgid "Enter addresses"
@@ -1753,8 +1753,8 @@ msgid "Expired"
 msgstr "Expiré"
 
 #: electrum/gui/qt/main_window.py:895
-msgid "Expired requests have to be deleted manually from your list, in order to free the corresponding Bitcoin addresses."
-msgstr "Les demandes périmées doivent être supprimées manuellement dans votre liste, afin de libérer les adresses Bitcoin correspondantes."
+msgid "Expired requests have to be deleted manually from your list, in order to free the corresponding Actinium addresses."
+msgstr "Les demandes périmées doivent être supprimées manuellement dans votre liste, afin de libérer les adresses Actinium correspondantes."
 
 #: electrum/gui/qt/invoice_list.py:45 electrum/gui/qt/main_window.py:1959
 msgid "Expires"
@@ -1876,7 +1876,7 @@ msgid "Firmware Version"
 msgstr "Version du firmware"
 
 #: electrum/plugins/ledger/ledger.py:33
-msgid "Firmware version (or \"Bitcoin\" app) too old for Segwit support. Please update at"
+msgid "Firmware version (or \"Actinium\" app) too old for Segwit support. Please update at"
 msgstr ""
 
 #: electrum/plugins/ledger/ledger.py:31
@@ -2079,8 +2079,8 @@ msgstr ""
 
 #: electrum/plugins/trezor/qt.py:538 electrum/plugins/keepkey/qt.py:543
 #: electrum/plugins/safe_t/qt.py:448
-msgid "If you disable your PIN, anyone with physical access to your {} device can spend your bitcoins."
-msgstr "Si vous désactivez votre code PIN, n'importe qui bénéficiant d'un accès physique à votre appareil {} peut dépenser vos bitcoins."
+msgid "If you disable your PIN, anyone with physical access to your {} device can spend your actiniums."
+msgstr "Si vous désactivez votre code PIN, n'importe qui bénéficiant d'un accès physique à votre appareil {} peut dépenser vos actiniums."
 
 #: electrum/base_wizard.py:406
 msgid "If you do not know what this is, leave this field empty."
@@ -2088,8 +2088,8 @@ msgstr ""
 
 #: electrum/plugins/trezor/qt.py:31 electrum/plugins/keepkey/qt.py:30
 #: electrum/plugins/safe_t/qt.py:30
-msgid "If you forget a passphrase you will be unable to access any bitcoins in the wallet behind it.  A passphrase is not a PIN. Only change this if you are sure you understand it."
-msgstr "Si vous oubliez une phrase secrète, vous serez incapable d'accéder aux bitcoins du portefeuille associé. Une phrase secrète n'est pas un code PIN. Ne changez ce paramètre que si vous êtes certain de le comprendre."
+msgid "If you forget a passphrase you will be unable to access any actiniums in the wallet behind it.  A passphrase is not a PIN. Only change this if you are sure you understand it."
+msgstr "Si vous oubliez une phrase secrète, vous serez incapable d'accéder aux actiniums du portefeuille associé. Une phrase secrète n'est pas un code PIN. Ne changez ce paramètre que si vous êtes certain de le comprendre."
 
 #: electrum/gui/kivy/uix/dialogs/installwizard.py:727
 msgid "If you forget your PIN or lose your device, your seed phrase will be the only way to recover your funds."
@@ -2133,12 +2133,12 @@ msgid "Import"
 msgstr "Importer"
 
 #: electrum/base_wizard.py:186
-msgid "Import Bitcoin Addresses"
-msgstr "Importer les adresses Bitcoin"
+msgid "Import Actinium Addresses"
+msgstr "Importer les adresses Actinium"
 
 #: electrum/base_wizard.py:113
-msgid "Import Bitcoin addresses or private keys"
-msgstr "Importer des adresses Bitcoin ou clé(s) privée(s)"
+msgid "Import Actinium addresses or private keys"
+msgstr "Importer des adresses Actinium ou clé(s) privée(s)"
 
 #: electrum/gui/qt/main_window.py:544 electrum/gui/qt/main_window.py:2702
 msgid "Import addresses"
@@ -2260,17 +2260,17 @@ msgstr "Montant invalide"
 
 #: electrum/plugins/hw_wallet/plugin.py:74 electrum/gui/qt/main_window.py:1565
 #: electrum/gui/kivy/uix/screens.py:254
-msgid "Invalid Bitcoin Address"
-msgstr "Adresse Bitcoin invalide"
+msgid "Invalid Actinium Address"
+msgstr "Adresse Actinium invalide"
 
 #: electrum/gui/text.py:340 electrum/gui/stdio.py:171
-msgid "Invalid Bitcoin address"
-msgstr "Adresse Bitcoin non valide"
+msgid "Invalid Actinium address"
+msgstr "Adresse Actinium non valide"
 
 #: electrum/wallet.py:1064 electrum/gui/qt/main_window.py:2267
 #: electrum/gui/qt/main_window.py:2295
-msgid "Invalid Bitcoin address."
-msgstr "Adresse Bitcoin non valide."
+msgid "Invalid Actinium address."
+msgstr "Adresse Actinium non valide."
 
 #: electrum/gui/text.py:350 electrum/gui/stdio.py:181
 msgid "Invalid Fee"
@@ -2298,8 +2298,8 @@ msgid "Invalid amount"
 msgstr "Montant non valide"
 
 #: electrum/gui/qt/main_window.py:1796
-msgid "Invalid bitcoin URI:"
-msgstr "URI bitcoin invalide:"
+msgid "Invalid actinium URI:"
+msgstr "URI actinium invalide:"
 
 #: electrum/plugins/trustedcoin/kivy.py:67
 #: electrum/plugins/trustedcoin/trustedcoin.py:326
@@ -2363,7 +2363,7 @@ msgstr ""
 
 #: electrum/gui/qt/main_window.py:1152
 msgid "Keyboard shortcut: type \"!\" to send all your coins."
-msgstr "Raccourci clavier: entrez \"!\" pour envoyer tous vos Bitcoins."
+msgstr "Raccourci clavier: entrez \"!\" pour envoyer tous vos Actiniums."
 
 #: electrum/base_wizard.py:163
 msgid "Keystore"
@@ -2494,8 +2494,8 @@ msgid "Make sure you install it with python3"
 msgstr ""
 
 #: electrum/gui/qt/main_window.py:460
-msgid "Make sure you own the seed phrase or the private keys, before you request Bitcoins to be sent to this wallet."
-msgstr "Assurez-vous de posséder votre graine ou les clés privées avant de demander que vos Bitcoin soit envoyés à ce portefeuille."
+msgid "Make sure you own the seed phrase or the private keys, before you request Actiniums to be sent to this wallet."
+msgstr "Assurez-vous de posséder votre graine ou les clés privées avant de demander que vos Actinium soit envoyés à ce portefeuille."
 
 #: electrum/plugins/coldcard/qt.py:150
 msgid "Master Fingerprint"
@@ -2751,8 +2751,8 @@ msgid "Not Verified"
 msgstr "Non vérifié"
 
 #: electrum/gui/kivy/uix/screens.py:180
-msgid "Not a Bitcoin URI"
-msgstr "Ce n'est pas une URI Bitcoin"
+msgid "Not a Actinium URI"
+msgstr "Ce n'est pas une URI Actinium"
 
 #: electrum/gui/text.py:148 electrum/gui/qt/network_dialog.py:363
 #: electrum/gui/qt/main_window.py:809 electrum/gui/qt/main_window.py:811
@@ -2860,8 +2860,8 @@ msgstr ""
 
 #: electrum/plugins/trezor/qt.py:563 electrum/plugins/keepkey/qt.py:568
 #: electrum/plugins/safe_t/qt.py:473
-msgid "Only wipe a device if you have the recovery seed written down and the device wallet(s) are empty, otherwise the bitcoins will be lost forever."
-msgstr "Ne réinitialisez un appareil que si vous avez noté la graine de récupération et que le(s) porte-feuille(s) de l'appareil est (sont) vide(s), sinon les Bitcoins seront perdus à jamais."
+msgid "Only wipe a device if you have the recovery seed written down and the device wallet(s) are empty, otherwise the actiniums will be lost forever."
+msgstr "Ne réinitialisez un appareil que si vous avez noté la graine de récupération et que le(s) porte-feuille(s) de l'appareil est (sont) vide(s), sinon les Actiniums seront perdus à jamais."
 
 #: electrum/plugins/revealer/qt.py:724
 msgid "Open calibration pdf"
@@ -2925,8 +2925,8 @@ msgstr "Le PIN ne correspond pas"
 
 #: electrum/plugins/trezor/qt.py:472 electrum/plugins/keepkey/qt.py:500
 #: electrum/plugins/safe_t/qt.py:382
-msgid "PIN protection is strongly recommended.  A PIN is your only protection against someone stealing your bitcoins if they obtain physical access to your {}."
-msgstr "Une protection par code PIN et fortement recommandée. Un code PIN est la seule protection empêchant quelqu'un ayant un accès physique à votre {} de voler vos bitcoins."
+msgid "PIN protection is strongly recommended.  A PIN is your only protection against someone stealing your actiniums if they obtain physical access to your {}."
+msgstr "Une protection par code PIN et fortement recommandée. Un code PIN est la seule protection empêchant quelqu'un ayant un accès physique à votre {} de voler vos actiniums."
 
 #: electrum/plugins/trezor/qt.py:431 electrum/plugins/keepkey/qt.py:458
 #: electrum/plugins/safe_t/qt.py:341
@@ -3134,7 +3134,7 @@ msgid "Please save these {0} words on paper (order is important). "
 msgstr ""
 
 #: electrum/gui/kivy/uix/screens.py:251
-msgid "Please scan a Bitcoin address or a payment request"
+msgid "Please scan a Actinium address or a payment request"
 msgstr ""
 
 #: electrum/plugin.py:557
@@ -3799,7 +3799,7 @@ msgid "Settings"
 msgstr "Paramètres"
 
 #: electrum/gui/kivy/uix/screens.py:382
-msgid "Share Bitcoin Request"
+msgid "Share Actinium Request"
 msgstr ""
 
 #: electrum/gui/kivy/uix/screens.py:266
@@ -3979,8 +3979,8 @@ msgid "Start"
 msgstr ""
 
 #: electrum/gui/qt/main_window.py:626
-msgid "Startup times are instant because it operates in conjunction with high-performance servers that handle the most complicated parts of the Bitcoin system."
-msgstr "Le temps de démarrage est quasi-nul grâce aux serveurs très performants, qui se chargent des parties les plus compliquées du système Bitcoin, avec lesquels il opère en conjonction."
+msgid "Startup times are instant because it operates in conjunction with high-performance servers that handle the most complicated parts of the Actinium system."
+msgstr "Le temps de démarrage est quasi-nul grâce aux serveurs très performants, qui se chargent des parties les plus compliquées du système Actinium, avec lesquels il opère en conjonction."
 
 #: electrum/gui/qt/main_window.py:2782
 msgid "Static"
@@ -4090,8 +4090,8 @@ msgid "The amount will be displayed in red if you do not have enough funds in yo
 msgstr "Le montant sera affiché en rouge si vous n'avez pas assez de fonds dans votre portefeuille."
 
 #: electrum/gui/qt/main_window.py:896
-msgid "The bitcoin address never expires and will always be part of this electrum wallet."
-msgstr "L'adresse Bitcoin n'expire jamais et fera toujours partie de ce portefeuille Electrum."
+msgid "The actinium address never expires and will always be part of this electrum wallet."
+msgstr "L'adresse Actinium n'expire jamais et fera toujours partie de ce portefeuille Electrum."
 
 #: electrum/gui/qt/main_window.py:1137
 msgid "The description is not sent to the recipient of the funds. It is stored in your wallet file, and displayed in the 'History' tab."
@@ -4239,7 +4239,7 @@ msgid "This may result in higher transactions fees."
 msgstr "Cela peut entraîner des frais de transaction plus élevés."
 
 #: electrum/gui/qt/main_window.py:459
-msgid "This means you will not be able to spend Bitcoins with it."
+msgid "This means you will not be able to spend Actiniums with it."
 msgstr ""
 
 #: electrum/gui/qt/main_window.py:3012
@@ -4323,7 +4323,7 @@ msgid "This will save fees."
 msgstr ""
 
 #: electrum/base_wizard.py:560
-msgid "Thus, you might want to keep using a non-segwit wallet in order to be able to receive bitcoins during the transition period."
+msgid "Thus, you might want to keep using a non-segwit wallet in order to be able to receive actiniums during the transition period."
 msgstr ""
 
 #: electrum/gui/qt/main_window.py:2776
@@ -4987,8 +4987,8 @@ msgid "You may also save unsigned requests or contact addresses using the save b
 msgstr ""
 
 #: electrum/gui/qt/main_window.py:1126
-msgid "You may enter a Bitcoin address, a label from your list of contacts (a list of completions will be proposed), or an alias (email-like address that forwards to a Bitcoin address)"
-msgstr "Vous pouvez saisir une adresse Bitcoin, un libellé de votre liste de contacts (une liste de complétion vous sera proposée), ou un alias (adresse courriel qui sera renvoyée à une adresse Bitcoin)"
+msgid "You may enter a Actinium address, a label from your list of contacts (a list of completions will be proposed), or an alias (email-like address that forwards to a Actinium address)"
+msgstr "Vous pouvez saisir une adresse Actinium, un libellé de votre liste de contacts (une liste de complétion vous sera proposée), ou un alias (adresse courriel qui sera renvoyée à une adresse Actinium)"
 
 #: electrum/base_wizard.py:401
 msgid "You may extend your seed with custom words."
@@ -5013,8 +5013,8 @@ msgstr "Vous devez créer un portefeuille Electrum distinct pour chaque phrase s
 
 #: electrum/plugins/trezor/qt.py:28 electrum/plugins/keepkey/qt.py:27
 #: electrum/plugins/safe_t/qt.py:27
-msgid "You should enable PIN protection.  Your PIN is the only protection for your bitcoins if your device is lost or stolen."
-msgstr "Vous devriez activer la protection par code PIN. Utiliser un code PIN est la seule manière de protéger vos bitcoins si votre appareil est perdu ou volé."
+msgid "You should enable PIN protection.  Your PIN is the only protection for your actiniums if your device is lost or stolen."
+msgstr "Vous devriez activer la protection par code PIN. Utiliser un code PIN est la seule manière de protéger vos actiniums si votre appareil est perdu ou volé."
 
 #: electrum/plugins/trezor/trezor.py:215 electrum/plugins/safe_t/safe_t.py:213
 msgid "You will be asked to enter 24 words regardless of your seed's actual length.  If you enter a word incorrectly or misspell it, you cannot change it or go back - you will need to start again from the beginning.\n\n"
@@ -5038,8 +5038,8 @@ msgid "Your accounts have been moved to"
 msgstr "Votre compte a été déplacé vers"
 
 #: electrum/gui/qt/password_dialog.py:250
-msgid "Your bitcoins are password protected. However, your wallet file is not encrypted."
-msgstr "Vos Bitcoin son protéger par un mot de passe, seulement votre portefeuille n'est pas chiffrer."
+msgid "Your actiniums are password protected. However, your wallet file is not encrypted."
+msgstr "Vos Actinium son protéger par un mot de passe, seulement votre portefeuille n'est pas chiffrer."
 
 #: electrum/plugins/trezor/qt.py:351 electrum/plugins/keepkey/qt.py:386
 #: electrum/plugins/safe_t/qt.py:261
