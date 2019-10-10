@@ -1,1 +1,1 @@
-# electrum-locale
+# actilectrum-locale
